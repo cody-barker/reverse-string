@@ -1,5 +1,11 @@
 def reverse_string(str)
-  # type your code in here
+  #declare a reversed_string varibale = ""
+  #declare split_string = str.split(//)
+  #starting with the last character of the split_spring, push each character into the reversed string
+  #join all those characters back into a string
+  reversed_string = ""
+  str.each_char {|char| reversed_string = char + reversed_string}
+  reversed_string
 end
 
 if __FILE__ == $PROGRAM_NAME
